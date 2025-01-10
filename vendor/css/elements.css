@@ -3093,15 +3093,19 @@ header.mega-elements  .fixed-menu.navbar-top-default .header-social a:hover {
 .ui-block-12.feature .feature-icon{
     font-size: 120px;
     -webkit-transform: translateY(-30%);
-    color: #202020;
+    color: #efff18;
     -webkit-transition: 0.5s ease;
     -o-transition: 0.5s ease;
     transition: 0.5s ease;
 }
 
 .ui-block-12.feature .feature-icon.center{
-    color: #fcd22a;
+    color: #070606;
 }
+.ui-block-12.feature .feature-icon.last{
+    color: #f31212;
+}
+
 
 .ui-block-12.feature .card-body .card-text{
     font-size: 24px;
@@ -27545,9 +27549,9 @@ section,.section-padding {position: relative;padding: 7.5rem 0;overflow: hidden;
 
 .ui-block-02.footer ul.footer-icon li a i {
     position: relative;
-    -webkit-transition: .1s;
-    -o-transition: .1s;
-    transition: .1s;
+    -webkit-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+    transition: all 0.5s ease-in-out;;
     z-index: 3;
 }
 
